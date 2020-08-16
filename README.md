@@ -5,13 +5,13 @@ This is my first discord bot!
 ## How to run
 
 ```
-git clone https://github.com/Teymur1998/teymur-discord-bot.git
+$ git clone https://github.com/Teymur1998/teymur-discord-bot.git
+$ cd teymur-discord-bot
 
-cd teymur-discord-bot
-
-
-pip install -r requirements.txt
-python bot.py
+$ pip install -r requirements.txt
+$ cp .env.exampe .env
+$ # Paste your DISCORD_TOKEN in .env
+$ python bot.py
 ```
 
 ## Commands
